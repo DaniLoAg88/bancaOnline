@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #F2F2F2;
+    /*font-family: sans-serif;*/
+}
+
+#divLogo{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#divNumeros{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: xxx-large;
+    height: 150px;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+#divPrincipal{
+    background-color: white;
+    margin-top: 0;
+    height: 350px;
+    padding-top: 35px;
+    font-size: large;
+}
+
+.boton{
+    background-color: #45BDA4;
+    color: white;
+    border-radius: 15%;
+    border: none;
+}

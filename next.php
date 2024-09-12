@@ -21,7 +21,7 @@
     <p>1<span class="material-symbols-outlined">arrow_forward</span><font color="#F9B801"> 2 </font><span class="material-symbols-outlined">arrow_forward</span> 3 </p>
 </div>
 <div id="divPrincipal" class="col-10">
-    <p>¡Continuamos!</p>
+    <p><h1><b>¡Continuamos!</b></h1></p>
     <p>Por favor, necesitamos mas datos para continuar tu proceso de alta:</p>
     <form action="lectura2.php" method="post" novalidate>
         <p><input type="text" placeholder="NOMBRE" name="nombre" id="nombre"><input type="text" placeholder="PRIMER APELLIDO" name="apellido1" id="apellido1"></p>

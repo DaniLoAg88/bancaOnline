@@ -21,7 +21,7 @@
     <p>1<span class="material-symbols-outlined">arrow_forward</span> 2 <span class="material-symbols-outlined">arrow_forward</span><font color="#F9B801"> 3 </font></p>
 </div>
 <div id="divPrincipal" class="col-10">
-    <p>¡Terminamos!</p>
+    <p><h1><b>¡Terminamos!</b></h1></p>
     <?php
     session_start();
 
@@ -39,7 +39,7 @@
 
     Try{
         @mail($destinatario, $asunto, $mensaje, $cabeceras);
-        echo "El alta en BANCA ONLINE se ha realizado exitosamente. Recibira en breve un mail en $destinatario para realizar una videollamada y confirmar los datos.";
+        echo "El alta en BANCA ONLINE se ha realizado exitosamente.<br>Recibira en breve un mail en $destinatario para realizar una videollamada y confirmar los datos.";
     }catch (Throwable $e) {
         echo "Se ha producido un error. " . $e->getMessage();
     }

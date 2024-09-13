@@ -14,13 +14,13 @@
 </head>
 <body>
 <div id="divLogo" class="col-10">
-    <img src="img/logo-banca-online.png" alt="Logo banca online">
-    <img src="img/contact_support.svg" alt="Imagen contacto">¿Te ayudamos?
+    <div class="col-4"><img src="img/logo-banca-online.png" alt="Logo banca online" id="imgLogo"></div>
+    <div class="col-4" id="divContacto"><p><img src="img/contact_support.svg" alt="Imagen contacto" id="imgContacto">¿Te ayudamos?</p></div>
 </div>
-<div id="divNumeros" class="col-10">
+<div id="divNumeros" class="col-8">
     <p>1<span class="material-symbols-outlined">arrow_forward</span> 2 <span class="material-symbols-outlined">arrow_forward</span><font color="#F9B801"> 3 </font></p>
 </div>
-<div id="divPrincipal" class="col-10">
+<div id="divPrincipal" class="col-8">
     <p><h1><b>¡Terminamos!</b></h1></p>
     <?php
     session_start();
@@ -45,7 +45,7 @@
     }
     ?>
     <p><b>¡Gracias por dejarnos ser tu banco!</b></p>
-    <form action="index.php" method="post" novalidate>
+    <form action="index.php">
         <p>
             <input type="submit" value="Ir a Inicio" id="btnInicio" name="btnInicio" class="boton">
         </p>

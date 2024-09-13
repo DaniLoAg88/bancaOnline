@@ -14,18 +14,18 @@
 </head>
 <body>
     <div id="divLogo" class="col-10">
-        <div class="col-4"><img src="img/logo-banca-online.png" alt="Logo banca online"></div>
-        <div class="col-4" id="divContacto"><p><img src="img/contact_support.svg" alt="Imagen contacto">¿Te ayudamos?</p></div>
+        <div class="col-4"><img src="img/logo-banca-online.png" alt="Logo banca online" id="imgLogo"></div>
+        <div class="col-4" id="divContacto"><p><img src="img/contact_support.svg" alt="Imagen contacto" id="imgContacto">¿Te ayudamos?</p></div>
     </div>
-    <div id="divNumeros" class="col-10">
+    <div id="divNumeros" class="col-8">
         <p><font color="#F9B801">1</font> <span class="material-symbols-outlined">arrow_forward</span> 2 <span class="material-symbols-outlined">arrow_forward</span> 3</p>
     </div>
-    <div id="divPrincipal" class="col-10">
+    <div id="divPrincipal" class="col-8">
         <p><h1><b>¡Comencemos!</b></h1></p>
         <p>Por favor, necesitamos éstos datos para iniciar tu proceso de alta:</p>
         <form action="lectura1.php" method="post" novalidate>
-            <p><input type="text" placeholder="DNI" name="dni" id="dni"><input type="number" placeholder="TELEFONO MOVIL" name="telefono" id="telefono"></p>
-            <p><input type="email" placeholder="EMAIL" name="email" id="email"><input type="email" placeholder="CONFIRMA TU EMAIL" name="email2" id="email2"></p>
+            <p><input type="text" placeholder="DNI" name="dni" id="dni" class="inputEntrada"><input type="number" placeholder="TELEFONO MOVIL" name="telefono" id="telefono" class="inputEntrada"></p>
+            <p><input type="email" placeholder="EMAIL" name="email" id="email" class="inputEntrada"><input type="email" placeholder="CONFIRMA TU EMAIL" name="email2" id="email2" class="inputEntrada"></p>
             <p><input type="checkbox" name="check" id="check">He leido y acepto la politica de privacidad y de proteccion de datos.</p>
             <p>
                 <input type="submit" disabled value="Siguiente" id="btnSiguiente" name="btnSiguiente" class="boton">

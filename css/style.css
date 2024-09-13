@@ -14,6 +14,7 @@ body{
 
 #divLogo{
     margin-top: 35px;
+    margin-left: 120px;
     display: flex;
     justify-content: space-around;
 }
@@ -28,34 +29,45 @@ body{
     height: 150px;
     padding-top: 10px;
     margin-top: 15px;
-    margin-left: 100px;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+    margin-left: 275px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 #divPrincipal{
     background-color: white;
     margin-top: 0;
-    margin-left: 100px;
-    height: 350px;
+    margin-left: 275px;
+    height: 400px;
     padding-top: 35px;
     font-size: large;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
-input{
+.inputEntrada{
     border: none;
-    border-bottom: 1px solid blue;
-    /*background-color: ;*/
-    /*color: ;*/
-    margin-right: 10px;
-    width: 15%;
+    border-bottom: 1px solid #45BDA4;
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 25%;
 }
 
 .boton{
     background-color: #45BDA4;
     color: white;
-    border-radius: 15%;
+    border-radius: 15px;
     border: none;
+    width: 10%;
+    height: 40px;
+    padding: 10px;
+}
+
+#imgContacto{
+    width: 10%;
+}
+
+#imgLogo{
+    width: 60%;
+    margin-top: 25px;
 }
